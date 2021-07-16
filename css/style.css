@@ -1,0 +1,286 @@
+.hero {
+    min-width: 360px;
+    min-height: 96px;
+    background: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(Component-2.png);
+    
+}
+
+body {
+    font-family: 'Rubik', sans-serif;;
+}
+
+.header {
+    min-width: 328px;
+    margin: 40px 16px;
+}
+
+.header summary {
+    font-weight: 700;
+}
+
+header p {
+    font-weight: bold;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+header li {
+    margin: 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #000000;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-content h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.main {
+    padding: 0 16px;
+}
+
+.main-content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #545454;
+    text-align: center;
+    margin-top: 16px;
+}
+
+strong {
+    color: #5551FF;
+}
+
+hr {
+    margin: 40px 0;
+    border: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-content blockquote {
+    border-left: 4px solid #5551FF;
+    margin: 40px 0;
+}
+
+.main-content blockquote p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+    text-align: start;
+    margin-left: 16px;
+}
+
+.wrapper {
+    max-inline-size: 902px;
+    margin: auto;
+}
+
+.main-content pre {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    overflow: auto;
+    padding: 40px;
+    border: 8px solid #5551FF;
+    border-radius: 8px;
+    box-shadow: -10px 10px 0 0 #ABAAF6;
+    margin-bottom: 40px;
+}
+
+.dom, .css {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.main-content .modelo-caja-h3 {
+    text-align: start;
+}
+
+.main-content .modelo-caja-p {
+    text-align: start;
+}
+
+.main-content li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #545454;
+}
+
+.main-content ul li {
+    margin-bottom: 16px;
+    color: #5551FF;
+}
+
+.main-content li span {
+    color: #545454;
+}
+
+.main-content .video-title {
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.slider-container {
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.video {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.slider-bullet-list {
+    text-align: center;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: rgba(142, 45, 226, 0.5);
+    border-radius: 50%;
+    margin-block-start: 10px;
+}
+
+.slider-bullet:hover {
+    background: #5551FF;
+}
+
+.main-content .email {
+    text-align: start;
+    color: #545454;
+    margin: 40px 0;
+}
+
+.main-content .email a {
+    color: #545454;
+}
+
+.main-content .title-form {
+    text-align: start;
+    margin: 0;
+}
+
+.form-content {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.form  input{
+    width: 90%;
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+}
+
+.form {
+    position: relative;
+}
+
+.form input[type='submit'] {
+    position: absolute;
+    background: #5551FF;
+    text-align: center;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    width: 33%;
+    top: 58%;
+    left: 61.4%;
+}
+
+.form input::-webkit-input-placeholder {
+    color: #000000;
+}
+
+@media screen and (min-width: 450px){
+    .form input[type='submit'] {
+        left: 65.5%;
+    }    
+}
+
+@media screen and (min-width: 1024px){
+    .hero {
+        height: 350px;
+        width: 100%;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .main-content {
+        margin-left: 100px;
+    }
+
+    header {
+        position: absolute;
+        width: 208px;
+        top: -50%;
+        left: 100%;
+    }
+
+    .header {
+        position: sticky;
+        
+    }
+
+    .header-content {
+        position: relative;
+
+    }
+
+    .form input[type='submit'] {
+        left: 60.5%;
+    }
+
+}
